@@ -1,0 +1,118 @@
+.body {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    border-bottom: 5px solid #cccccc;
+    display: inline-block;
+    width: 100%;
+}
+
+.headercontent {
+    background-color: #ffffff;
+    width: 960px;
+    margin: 50px 100px;
+}
+
+.name {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    float: left;
+    padding: 10px 30px;
+    margin: 0px;
+}
+
+.nav h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    float: right;
+    color: #777777;
+}
+
+.bodycontent {
+    width: 960px;
+    display: inline-block;
+    background-color: #ffffff;
+    margin: 80px 100px;
+    border-style: solid;
+    border-color: #dddddd;
+    border-width: 2px;
+}
+
+.bodybackground {
+    background-image: url("../images/ep_naturalwhite.png");
+    width: 100%;
+    background-size: contain;
+    flex: 1;
+}
+
+.headingtext {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px 0px 10px 25px;
+}
+
+.article {
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 5px 5px 5px;
+}
+
+.article p {
+    display: inline-flexbox;
+    padding: 0px 20px 0px 10px;
+    line-height: 200%;
+    margin: 10px;
+}
+
+.pic {
+    flex-direction: column;
+    float: left;
+    padding: 20px 20px 20px 25px;
+}
+
+.portpics {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 20px 25px;
+}
+
+.footer {
+    display: block;
+    text-align: center;
+    background-color: #666666;
+    width: 100%;
+    padding: 30px 0px 10px 0px;
+    border-top: solid #4aaaa5 5px;
+    color: #ffffff;
+}
+
+.contactheadings {
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 5px 5px 5px;
+    margin: 0px 5px 20px 20px;
+}
+
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: #777777;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
