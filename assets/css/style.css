@@ -16,7 +16,7 @@
 .headercontent {
     background-color: #ffffff;
     width: 960px;
-    margin: 50px 100px;
+    margin: 50px 270px;
 }
 
 .name {
@@ -39,7 +39,7 @@
     width: 960px;
     display: inline-block;
     background-color: #ffffff;
-    margin: 80px 100px;
+    margin: 50px 270px;
     border-style: solid;
     border-color: #dddddd;
     border-width: 2px;
